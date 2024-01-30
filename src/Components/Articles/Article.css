@@ -1,0 +1,28 @@
+.article_heading{
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 30px;
+}
+.article_date{
+    font-weight: 500
+}
+
+.article_footer{
+    font-weight: 500
+}
+
+@media screen and (max-width:800px) {
+    .article_heading{
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 20px;
+    }
+    .article_date{
+        font-size: 8px;
+        font-weight: 500
+    }
+    .article_footer{
+        font-size: 8px;
+        font-weight: 500
+    }
+}

@@ -1,0 +1,9 @@
+.gpt_brand{
+    gap: 50px;
+}
+
+@media screen and (max-width:550px) {
+   .gpt_brand{
+    gap: 30px;
+   }
+}

@@ -1,0 +1,28 @@
+.gpt_cta{
+    background: var(--gradient-text);
+}
+.cta_content p{
+    font-size: 12px;
+    line-height: 30px;
+}
+.cta_content h1{
+ font-size: 24px;
+ font-weight: 800;
+ line-height: 35px;
+}
+@media screen and (max-width:850px) {
+    .cta_content h1{
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width:550px) {
+    .cta_content h1{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 2rem;
+    }
+    .gpt_cta{
+        flex-direction: column;
+    }
+}

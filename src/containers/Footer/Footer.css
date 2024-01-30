@@ -1,0 +1,57 @@
+
+.upper_content{
+    margin: 8rem;
+}
+.upper_content h1{
+    font-size: 62px;
+    line-height: 65px;
+    font-weight: 800;
+}
+
+.lower_content_logo p{
+font-size: 12px;
+font-weight: 400;
+}
+.lower_content_info{
+    gap: 8rem;
+}
+.lower_content_info_links p {
+    padding-bottom: 2rem;
+}
+.lower_content_info_company p {
+    padding-bottom: 2rem;
+}
+.lower_content_info_git p {
+    padding-bottom: 2rem;
+}
+.lower_content_info p {
+    font-size: 14px;
+}
+.lower_content_info a {
+    font-size: 12px;
+}
+@media screen and (max-width:900px) {
+    .lower_content{
+        flex-direction: column;
+    }
+    .upper_content{
+        margin: 6rem 2rem;
+    }
+    .upper_content h1{
+        font-size: 50px;
+        line-height: 55px;
+        font-weight: 800;
+    }
+    
+}
+@media screen and (max-width:550px) {
+    .upper_content h1{
+        font-size: 32px;
+        line-height: 35px;
+        font-weight: 800;
+    }
+    .lower_content_info{
+        gap: 2rem;
+    }
+    
+}

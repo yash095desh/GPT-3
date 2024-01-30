@@ -1,0 +1,28 @@
+.possiblities_content_h1{
+    font-size: 34px;
+    line-height: 45px;
+}
+.content_middle_para{
+    line-height: 30px;
+}
+
+
+@media screen and (max-width:850px) {
+   .gpt_possiblities{
+    flex-direction: column;
+   }
+   .possiblities_content{
+    margin-top: 30px;
+   }
+    
+}
+@media screen and (max-width:550px) {
+    .possiblities_content_h1{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .content_middle_para{
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

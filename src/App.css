@@ -1,0 +1,39 @@
+body{
+    background-color: #040C18;
+}
+
+.gradient_bg {
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 0% 0%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+}
+.section_padding{
+    padding: 4rem 6rem;
+}
+.section_margin{
+    margin: 4rem 6rem;
+}
+
+@media screen and (max-width:1050px) {
+    .section_padding{
+        padding: 4rem 6rem;
+    }
+    .section_margin{
+        margin: 4rem 6rem;
+    }
+}
+@media screen and (max-width:1050px) {
+    .section_padding{
+        padding: 4rem ;
+    }
+    .section_margin{
+        margin: 4rem ;
+    }
+}
+@media screen and (max-width:1050px) {
+    .section_padding{
+        padding: 2rem ;
+    }
+    .section_margin{
+        margin: 2rem ;
+    }
+}
